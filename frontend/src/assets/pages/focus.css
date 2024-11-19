@@ -1,0 +1,103 @@
+body {
+    background-color: #f2f3f4;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #00447c;
+    padding: 15px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+}
+
+.navbar-link {
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-link:hover {
+    background-color: #0b7b9e;
+}
+
+.container {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    flex: 1; /* This property is specific to flexbox and may need to be handled in a parent container */
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #dddace;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.button {
+    background-color: #a0e0dc;
+    color: #212121;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.reminder-list {
+    margin-top: 20px;
+}
+
+.reminder-item {
+    padding: 10px;
+    border: 1px solid #dddace;
+    background-color: #e0f7fa;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.timer-display {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.timer-controls {
+    display: flex; 
+    gap: 10px; 
+}
+
+#break-header{
+    margin-bottom: 20px;
+    text-align: center;
+}

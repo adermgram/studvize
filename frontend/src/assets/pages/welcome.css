@@ -1,0 +1,37 @@
+/* Welcome Page Container */
+.welcome-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(120deg, #89f7fe, #66a6ff);
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    transition: opacity 1s ease-out;
+    width: 100rem;
+  }
+  
+  /* Fade-out effect */
+  .fade-out {
+    opacity: 0;
+  }
+  
+  /* Welcome Message Styling */
+  .welcome-message {
+    font-size: 3rem;
+    font-weight: bold;
+    animation: slide-in 1.5s ease-in-out;
+  }
+  
+  /* Slide-in Animation */
+  @keyframes slide-in {
+    from {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
