@@ -25,7 +25,7 @@
 .form-container {
     flex: 1; /* Allows the form container to grow and fill available space */
     padding: 10px;
-    background-color: #fff;
+    background-color: #0b7b9e;
     display: flex;
     flex-direction: column;
     justify-content: center; /* Centers content vertically */
@@ -83,4 +83,25 @@
 
 .reg-form {
    width : 500px; /* Fixed width for registration form */
+}
+
+/* Styles for the "What the App Does" and "How It Works" sections */
+.info-section-wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.info-section {
+    color: #f4f4f9;
+    width: 45%; /* Ensures the two sections sit side by side */
+    background-color: #0b7b9e;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#registrationForm{
+    color: #f4f4f9;
 }
